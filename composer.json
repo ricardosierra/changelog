@@ -1,27 +1,31 @@
 {
-    "name": "emlynwest/changelog",
+    "name": "ricardosierra/changelog",
     "description": "Package to enable change logs to be parsed",
     "type": "library",
     "keywords": ["change", "log", "changelog", "parser"],
-    "homepage": "https://github.com/emlynwest/changelog",
+    "homepage": "https://github.com/ricardosierra/changelog",
     "license": "MIT",
     "authors": [
         {
             "name": "Emlyn West",
             "email": "emlyn.west@gmail.com"
+        },
+        {
+            "name": "Ricardo Sierra",
+            "email": "contato@ricardosierra.com.br"
         }
     ],
     "require": {
-        "symfony/console": "^3.0",
+        "symfony/console": "^4.0",
         "naneau/semver": "^0.0.7"
     },
     "require-dev": {
-        "php": ">=5.6",
+        "php": ">=7.0",
         "ext-json": "*",
         "codeception/codeception": "~2.0",
-        "codeception/mockery-module": "dev-master",
-        "milo/github-api": "dev-master",
-        "league/flysystem": "dev-master",
+        "codeception/mockery-module": "*",
+        "milo/github-api": "*",
+        "league/flysystem": "*",
         "codegyre/robo": "^0.7.2"
     },
     "autoload": {
