@@ -16,17 +16,17 @@
         }
     ],
     "require": {
-        "symfony/console": "^4.0",
-        "naneau/semver": "^0.0.7"
+        "symfony/console": ">=4.0",
+        "naneau/semver": ">=0.0.7"
     },
     "require-dev": {
         "php": ">=7.0",
         "ext-json": "*",
-        "codeception/codeception": "~2.0",
+        "codeception/codeception": ">=2.0",
         "codeception/mockery-module": "*",
         "milo/github-api": "*",
         "league/flysystem": "*",
-        "codegyre/robo": "^0.7.2"
+        "codegyre/robo": ">=0.7.2"
     },
     "autoload": {
         "psr-4": {
